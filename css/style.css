@@ -18,7 +18,7 @@
 
 .container > header {
     height: 120px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .container > header  img {
@@ -129,21 +129,27 @@ header > nav li a {
     background-image: url('../img/img-3.jpg');
 }
 
-.col {
+.col.left{
     width: calc(21% - 10px);
     float: left;
     margin-right: 10px;
-}
-
-.col h4 {
-    color: black;
-    margin: 20px 0;
 }
 
 .col.center {
     width: calc(58% - 20px);
     float: left;
     margin: 0 10px;
+}
+
+.col.right{
+    width: calc(21% - 10px);
+    float: left;
+    margin-left: 10px;
+}
+
+.col h4 {
+    color: black;
+    margin: 20px 0;
 }
 
 footer {
