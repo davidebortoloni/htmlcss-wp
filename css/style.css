@@ -27,7 +27,7 @@
 
 #logo {
     margin-bottom: 40px;
-    height: 50%;
+    height: 60%;
 }
 
 header > nav > ul {
@@ -35,22 +35,28 @@ header > nav > ul {
 }
 
 header > nav li {
-    color: #8a8a8a;
     display: inline-block;
-    text-transform: uppercase;
     margin-right: 8px;
+}
+
+header > nav li a {
+    color: #8a8a8a;
+    text-transform: uppercase;
     font-size: 17px;
+    text-decoration: none;
 }
 
 .hero {
     height: 520px;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 .opacity {
     height: 100%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.2);
+}
+.hero .banner .opacity {
     padding-top: 330px;
 }
 
@@ -83,38 +89,71 @@ header > nav li {
 }
 
 
-header.light-blue {
+.leadership header {
     height: 60px;
     margin-bottom: 25px;
 }
 
-.columns {                                       
-    margin-top: 25px;
+.leadership header h2 {
+    font-size: 45px;
 }
 
-.col.left {
-    height: 530px;
+.leadership header h3 {
+    color: #8a8a8a;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.columns {                                       
+    margin-top: 50px;
+    font-size: 18px;
+    color: #8a8a8a;
+}
+
+.columns .image {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.columns .left .image {
+    background-image: url('../img/img-1.jpg');
+}
+
+.columns .center .image {
+    background-image: url('../img/banner-2.jpg');
+}
+
+.columns .right .image {
+    background-image: url('../img/img-3.jpg');
+}
+
+.col {
     width: calc(21% - 10px);
     float: left;
     margin-right: 10px;
 }
 
+.col h4 {
+    color: black;
+    margin: 20px 0;
+}
+
 .col.center {
-    height: 530px;
     width: calc(58% - 20px);
     float: left;
     margin: 0 10px;
 }
 
-.col.right {
-    height: 530px;
-    width: calc(21% - 10px);
-    float: left;
-    margin-left: 10px;
-}
-
 footer {
     height: 50px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer > i {
+    color: red;
 }
